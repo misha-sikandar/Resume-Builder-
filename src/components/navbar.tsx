@@ -39,13 +39,15 @@ export default function Navbar() {
               Home
             </Link>
             
-            <Link href="/tips" className="text-gray-600 hover:text-gray-900">
-            Tips & Resources
+
+            <Link href="/generate" className="text-gray-600 hover:text-gray-900">
+            Generate Resume
+            </Link>
+
+            <Link href="/edit" className="text-gray-600 hover:text-gray-900">
+            Edit Resume
             </Link>
             
-            {/* Buttons displayed after "Contact" */}
-            <Link href="/login"><Button variant="outline" className="ml-4" ><MdLogin />Login</Button></Link>
-            <Link href="/signup"><Button variant="outline" className="ml-4"><HiOutlinePencilSquare />Signup</Button></Link>
           </div>
 
           {/* Mobile Menu Button */}
